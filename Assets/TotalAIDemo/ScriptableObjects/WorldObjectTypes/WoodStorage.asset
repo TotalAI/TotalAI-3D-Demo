@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac311c2c8195f641899f4fd24cd8481, type: 3}
+  m_Name: WoodStorage
+  m_EditorClassIdentifier: 
+  sideEffectValue: 1
+  typeCategories:
+  - {fileID: 11400000, guid: 8934db58a19603346bb50ec1e7b77569, type: 2}
+  interactionSpotType: {fileID: 11400000, guid: 1d50f2325c4da6342b79bda2b73c5228, type: 2}
+  spotTypeActionTypeMappings: []
+  prefabVariants:
+  - {fileID: 3342788228618618921, guid: a7a44a8ab5a46ad42bf3bf4ad299631f, type: 3}
+  ghostPrefabs: []
+  requiresFlatLand: 0
+  rotateToTerrain: 0
+  maxSlopePlacement: 0
+  maxDistanceAsInput: 0
+  defaultAttributes: []
+  defaultTags: []
+  defaultInventoryType: {fileID: 11400000, guid: 5b7f8529e42b0b44e95b2fc0f64aca67, type: 2}
+  canBeInInventorySlots: []
+  transformMappings: []
+  itemAttributeTypeModifiers: []
+  itemActionSkillModifiers: []
+  itemSoundEffects: []
+  itemVisualEffects: []
+  inventorySlots:
+  - {fileID: 11400000, guid: 0074c1823981030439ce3e4896f655c0, type: 2}
+  defaultInventory:
+  - inventorySlot: {fileID: 11400000, guid: 0074c1823981030439ce3e4896f655c0, type: 2}
+    entityType: {fileID: 11400000, guid: ab401d83b010c0540bfda698d44e4cb5, type: 2}
+    prefabVariantIndex: 0
+    probability: 100
+    amountCurve: {fileID: 11400000, guid: 397a64a2390aa694d9cfda5dc0c19c19, type: 2}
+  defaultEntityModifiers: []
+  itemsConsumedPerBuild: []
+  completeType: 0
+  pointsToComplete: 0
+  growthRate: 0
+  autoScale: 0
+  canBeDamaged: 0
+  damageToDestroy: 0
+  removeOnFullDamage: 0
+  states: []
+  statesOutputChanges: []
+  skinGameObjectName: Body
+  skinPrefabMappings: []
+  addDefaultInventoryTiming: 0
+  recipes: []

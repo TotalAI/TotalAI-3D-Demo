@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e53b3a1b8b5e474a84c157ca8f32922, type: 3}
+  m_Name: Cyclinder
+  m_EditorClassIdentifier: 
+  sideEffectValue: 1
+  typeCategories:
+  - {fileID: 11400000, guid: cc6357c762aa0e646a992a626e5d5af0, type: 2}
+  interactionSpotType: {fileID: 11400000, guid: 8127cc6cbeeb77644b28ed054feefdde, type: 2}
+  spotTypeActionTypeMappings: []
+  prefabVariants:
+  - {fileID: 4321668431967836131, guid: 2bb8ded2749518941a9631eb18b0b470, type: 3}
+  ghostPrefabs: []
+  requiresFlatLand: 0
+  rotateToTerrain: 0
+  maxSlopePlacement: 0
+  maxDistanceAsInput: 2
+  defaultAttributes:
+  - type: {fileID: 11400000, guid: def8249370dc1e54ba6369f213fec0bf, type: 2}
+    oneFloatData:
+      floatValue: 0
+    minMaxFloatData:
+      floatValue: 20
+      min: 5
+      max: 30
+    enumData:
+      enumIndexValue: 0
+  - type: {fileID: 11400000, guid: e95ff28a681acfe478c160f3fb2aa28e, type: 2}
+    oneFloatData:
+      floatValue: 0
+    minMaxFloatData:
+      floatValue: 2
+      min: 0
+      max: 5
+    enumData:
+      enumIndexValue: 0
+  - type: {fileID: 11400000, guid: b3bdce86f39e3a442ba4caf04e0e7df2, type: 2}
+    oneFloatData:
+      floatValue: 0
+    minMaxFloatData:
+      floatValue: 20
+      min: 0
+      max: 20
+    enumData:
+      enumIndexValue: 0
+  - type: {fileID: 11400000, guid: 2c52062088218bb4481144a04227f146, type: 2}
+    oneFloatData:
+      floatValue: 1
+    minMaxFloatData:
+      floatValue: 1
+      min: 1
+      max: 5
+    enumData:
+      enumIndexValue: 0
+  defaultTags: []
+  defaultInventoryType: {fileID: 11400000, guid: 5b7f8529e42b0b44e95b2fc0f64aca67, type: 2}
+  canBeInInventorySlots: []
+  transformMappings: []
+  itemAttributeTypeModifiers: []
+  itemActionSkillModifiers: []
+  itemSoundEffects: []
+  itemVisualEffects: []
+  inventorySlots:
+  - {fileID: 11400000, guid: 6f031e80d899ccf4db5b53ae060bbf51, type: 2}
+  - {fileID: 11400000, guid: 5df0c9a80c3d33f438bf6e9b8333e3de, type: 2}
+  - {fileID: 11400000, guid: c732361830f2f3b4c922ba57856dea6d, type: 2}
+  defaultInventory:
+  - inventorySlot: {fileID: 11400000, guid: c732361830f2f3b4c922ba57856dea6d, type: 2}
+    entityType: {fileID: 11400000, guid: d2a7ab21a3905fa48b70ad9ae7f743cc, type: 2}
+    prefabVariantIndex: 0
+    probability: 100
+    amountCurve: {fileID: 11400000, guid: 8f7ea68e99d6cd14a8a6ec06c9a69dbb, type: 2}
+  defaultEntityModifiers:
+  - {fileID: 11400000, guid: 00ef4cdbd7a73fc488385aeddb47fa5c, type: 2}
+  defaultMovementType: {fileID: 11400000, guid: cac7d0f5b0670594db249a27c82aa721, type: 2}
+  defaultAnimationType: {fileID: 11400000, guid: 951f1e29512d26443b9d661c2d38964b, type: 2}
+  useAnimatorOverrides: 0
+  idleLayer: 0
+  idleState: Idle
+  defaultUtilityFunction: {fileID: 11400000, guid: 42c7360d50fd4a548ba9ce21520c1ecd, type: 2}
+  defaultMemoryType: {fileID: 11400000, guid: 670540be5b8cac1499ed74a9332c414a, type: 2}
+  defaultDeciderType: {fileID: 11400000, guid: 06a133410eba5b54faf9d6caffbb0ad0, type: 2}
+  defaultHistoryType: {fileID: 11400000, guid: 42f96b8289481a54a83d66959be3f2a0, type: 2}
+  defaultNoPlansMappingType: {fileID: 11400000, guid: ad50c40ce1ea54543a9392ae314e1a0e, type: 2}
+  defaultNoPlansDriveType: {fileID: 11400000, guid: e0278b9c80876eb49ac0eb3d33a28a80, type: 2}
+  maxNumDetectedEntities: 100
+  defaultSensorTypes:
+  - {fileID: 11400000, guid: cd396a0233bad5141aa1fc27321012ce, type: 2}
+  defaultActions:
+  - actionType: {fileID: 11400000, guid: d772a5efe6dd80b4fb26f61deb138117, type: 2}
+    level: 0
+    changeProbability: 0
+    changeAmount: 0
+  - actionType: {fileID: 11400000, guid: d80806682082d33489140276a26bbe20, type: 2}
+    level: 0
+    changeProbability: 0
+    changeAmount: 0
+  - actionType: {fileID: 11400000, guid: 106e17b28514c3b468b1a64b996385ee, type: 2}
+    level: 0
+    changeProbability: 0
+    changeAmount: 0
+  - actionType: {fileID: 11400000, guid: 59beda6a294c9784bb9206c8492e70ab, type: 2}
+    level: 0
+    changeProbability: 0
+    changeAmount: 0
+  defaultDrives:
+  - driveType: {fileID: 11400000, guid: 861a0d804acab434a920a80127db801f, type: 2}
+    startingLevel: 0
+    overrideDriveType: 0
+    changePerGameHour: 5
+    rateTimeCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    maxTimeCurve: 0
+    minTimeCurve: 0
+  - driveType: {fileID: 11400000, guid: e0278b9c80876eb49ac0eb3d33a28a80, type: 2}
+    startingLevel: 0
+    overrideDriveType: 0
+    changePerGameHour: 0
+    rateTimeCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    maxTimeCurve: 0
+    minTimeCurve: 0
+  animatorOverrides: []
+  animatorOverridesConditions: []

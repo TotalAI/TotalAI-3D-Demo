@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f199e8b000223248a94a6cc6578b4ce, type: 3}
+  m_Name: ATMUsedTargetEquippedST
+  m_EditorClassIdentifier: 
+  minType: 0
+  minFixedValue: 0
+  startType: 1
+  startFixedValue: 0
+  maxType: 0
+  maxFixedValue: 0
+  combineType: 1
+  selectorFactorInfos:
+  - selectorFactor: {fileID: 11400000, guid: b0072586377dfa04cb42697f03d68073, type: 2}
+    weight: 1
+  - selectorFactor: {fileID: 11400000, guid: 93e1997506d61db4db140d3803e52f52, type: 2}
+    weight: 1

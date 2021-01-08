@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac311c2c8195f641899f4fd24cd8481, type: 3}
+  m_Name: Log
+  m_EditorClassIdentifier: 
+  sideEffectValue: 1
+  typeCategories:
+  - {fileID: 11400000, guid: aaf0b65d34773264c8f7cd0dbbff9b97, type: 2}
+  interactionSpotType: {fileID: 11400000, guid: 8127cc6cbeeb77644b28ed054feefdde, type: 2}
+  spotTypeActionTypeMappings: []
+  prefabVariants:
+  - {fileID: 9162537798619114613, guid: d580eb35cd094cd4daa576a41e61af4b, type: 3}
+  ghostPrefabs: []
+  requiresFlatLand: 0
+  rotateToTerrain: 0
+  maxSlopePlacement: 0
+  maxDistanceAsInput: 0.5
+  defaultAttributes: []
+  defaultTags: []
+  defaultInventoryType: {fileID: 11400000, guid: 5b7f8529e42b0b44e95b2fc0f64aca67, type: 2}
+  canBeInInventorySlots:
+  - inventorySlot: {fileID: 11400000, guid: 5df0c9a80c3d33f438bf6e9b8333e3de, type: 2}
+    numLocations: 1
+    isEquipped: 0
+    otherInventorySlots:
+    - {fileID: 11400000, guid: 6f031e80d899ccf4db5b53ae060bbf51, type: 2}
+    otherInventorySlotsNumLocations: 01000000
+  - inventorySlot: {fileID: 11400000, guid: 8b3e0457f40eeed45b5623d534df3af3, type: 2}
+    numLocations: 1
+    isEquipped: 0
+    otherInventorySlots: []
+    otherInventorySlotsNumLocations: 
+  - inventorySlot: {fileID: 11400000, guid: fb638314fd2bbfa41a9385f503eae963, type: 2}
+    numLocations: 1
+    isEquipped: 0
+    otherInventorySlots: []
+    otherInventorySlotsNumLocations: 
+  - inventorySlot: {fileID: 11400000, guid: 0074c1823981030439ce3e4896f655c0, type: 2}
+    numLocations: 1
+    isEquipped: 0
+    otherInventorySlots: []
+    otherInventorySlotsNumLocations: 
+  transformMappings:
+  - transform: {fileID: 8601160886022475415, guid: bb526a5ed73813c4aaacc0b2320b0023, type: 3}
+    inventorySlot: {fileID: 11400000, guid: 5df0c9a80c3d33f438bf6e9b8333e3de, type: 2}
+    ownerMatchType: 1
+    typeGroupMatch: {fileID: 0}
+    typeCategoryMatch: {fileID: 11400000, guid: cc6357c762aa0e646a992a626e5d5af0, type: 2}
+    entityTypeMatch: {fileID: 0}
+    ownerPrefabVariantIndex: -1
+    thisPrefabVariantIndex: -1
+    stateNames: []
+  itemAttributeTypeModifiers: []
+  itemActionSkillModifiers: []
+  itemSoundEffects: []
+  itemVisualEffects: []
+  inventorySlots: []
+  defaultInventory: []
+  defaultEntityModifiers: []
+  itemsConsumedPerBuild: []
+  completeType: 0
+  pointsToComplete: 0
+  growthRate: 0
+  autoScale: 0
+  canBeDamaged: 0
+  damageToDestroy: 0
+  removeOnFullDamage: 0
+  states: []
+  statesOutputChanges: []
+  skinGameObjectName: Body
+  skinPrefabMappings: []
+  addDefaultInventoryTiming: 0
+  recipes: []

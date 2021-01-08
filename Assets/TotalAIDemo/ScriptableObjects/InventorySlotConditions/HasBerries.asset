@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07b9a171582c36043a8e3567b16f0e36, type: 3}
+  m_Name: HasBerries
+  m_EditorClassIdentifier: 
+  inventorySlot: {fileID: 11400000, guid: 1447b9412e6984b4084dac73223819c7, type: 2}
+  matchType: 2
+  entityType: {fileID: 11400000, guid: d38b864c8bd494047a3d6f7475762751, type: 2}
+  typeCategory: {fileID: 0}
+  typeGroup: {fileID: 0}
+  prefabVariantIndex: -1
+  minAmount: 1
+  maxAmount: 1000

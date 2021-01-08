@@ -1,0 +1,379 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e53b3a1b8b5e474a84c157ca8f32922, type: 3}
+  m_Name: Sphere
+  m_EditorClassIdentifier: 
+  sideEffectValue: 1
+  typeCategories:
+  - {fileID: 11400000, guid: cc6357c762aa0e646a992a626e5d5af0, type: 2}
+  interactionSpotType: {fileID: 11400000, guid: 8127cc6cbeeb77644b28ed054feefdde, type: 2}
+  spotTypeActionTypeMappings: []
+  prefabVariants:
+  - {fileID: 7878264141725263827, guid: 43990574df1953042b9a49a62b40936c, type: 3}
+  - {fileID: 6119239926523835399, guid: 46b56d3e20e8ecc469a5a250d22bbb52, type: 3}
+  ghostPrefabs: []
+  requiresFlatLand: 0
+  rotateToTerrain: 0
+  maxSlopePlacement: 0
+  maxDistanceAsInput: 2
+  defaultAttributes:
+  - type: {fileID: 11400000, guid: def8249370dc1e54ba6369f213fec0bf, type: 2}
+    oneFloatData:
+      floatValue: 0
+    minMaxFloatData:
+      floatValue: 20
+      min: 5
+      max: 30
+    enumData:
+      enumIndexValue: 0
+  - type: {fileID: 11400000, guid: e95ff28a681acfe478c160f3fb2aa28e, type: 2}
+    oneFloatData:
+      floatValue: 0
+    minMaxFloatData:
+      floatValue: 2
+      min: 0
+      max: 5
+    enumData:
+      enumIndexValue: 0
+  - type: {fileID: 11400000, guid: b3bdce86f39e3a442ba4caf04e0e7df2, type: 2}
+    oneFloatData:
+      floatValue: 0
+    minMaxFloatData:
+      floatValue: 20
+      min: 0
+      max: 20
+    enumData:
+      enumIndexValue: 0
+  - type: {fileID: 11400000, guid: 2c52062088218bb4481144a04227f146, type: 2}
+    oneFloatData:
+      floatValue: 1
+    minMaxFloatData:
+      floatValue: 10
+      min: 1
+      max: 10
+    enumData:
+      enumIndexValue: 0
+  defaultTags: []
+  defaultInventoryType: {fileID: 11400000, guid: 5b7f8529e42b0b44e95b2fc0f64aca67, type: 2}
+  canBeInInventorySlots: []
+  transformMappings: []
+  itemAttributeTypeModifiers: []
+  itemActionSkillModifiers: []
+  itemSoundEffects: []
+  itemVisualEffects: []
+  inventorySlots:
+  - {fileID: 11400000, guid: 6f031e80d899ccf4db5b53ae060bbf51, type: 2}
+  - {fileID: 11400000, guid: 5df0c9a80c3d33f438bf6e9b8333e3de, type: 2}
+  - {fileID: 11400000, guid: c732361830f2f3b4c922ba57856dea6d, type: 2}
+  defaultInventory: []
+  defaultEntityModifiers: []
+  defaultMovementType: {fileID: 11400000, guid: cac7d0f5b0670594db249a27c82aa721, type: 2}
+  defaultAnimationType: {fileID: 11400000, guid: 951f1e29512d26443b9d661c2d38964b, type: 2}
+  useAnimatorOverrides: 1
+  idleLayer: 0
+  idleState: Idle
+  defaultUtilityFunction: {fileID: 11400000, guid: 42c7360d50fd4a548ba9ce21520c1ecd, type: 2}
+  defaultMemoryType: {fileID: 11400000, guid: 670540be5b8cac1499ed74a9332c414a, type: 2}
+  defaultDeciderType: {fileID: 11400000, guid: 1c97c55512de94548a52b74c9f025946, type: 2}
+  defaultHistoryType: {fileID: 11400000, guid: 42f96b8289481a54a83d66959be3f2a0, type: 2}
+  defaultNoPlansMappingType: {fileID: 0}
+  defaultNoPlansDriveType: {fileID: 0}
+  maxNumDetectedEntities: 100
+  defaultSensorTypes:
+  - {fileID: 11400000, guid: cd396a0233bad5141aa1fc27321012ce, type: 2}
+  defaultActions:
+  - actionType: {fileID: 11400000, guid: 106e17b28514c3b468b1a64b996385ee, type: 2}
+    level: 0
+    changeProbability: 0
+    changeAmount: 0
+  - actionType: {fileID: 11400000, guid: 20f27589faeeaf4439df6dd8da850334, type: 2}
+    level: 0
+    changeProbability: 0
+    changeAmount: 0
+  - actionType: {fileID: 11400000, guid: 2a7ec4e88dce55a4e9f9b30d42900036, type: 2}
+    level: 0
+    changeProbability: 0
+    changeAmount: 0
+  - actionType: {fileID: 11400000, guid: 4b14827b24f5e704f91fb3bac653b057, type: 2}
+    level: 0
+    changeProbability: 0
+    changeAmount: 0
+  - actionType: {fileID: 11400000, guid: 954c0d7c920bb1c48abdf244ab9a910a, type: 2}
+    level: 0
+    changeProbability: 0
+    changeAmount: 0
+  - actionType: {fileID: 11400000, guid: 8a8a85591ecf81242bb1f852b09fac9f, type: 2}
+    level: 0
+    changeProbability: 0
+    changeAmount: 0
+  - actionType: {fileID: 11400000, guid: 341b913e4511e6244bf02eac0ebf0b76, type: 2}
+    level: 0
+    changeProbability: 0
+    changeAmount: 0
+  defaultDrives:
+  - driveType: {fileID: 11400000, guid: 52f61f98152edc14181aeebc6c927665, type: 2}
+    startingLevel: 0
+    overrideDriveType: 0
+    changePerGameHour: -2
+    rateTimeCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    maxTimeCurve: 0
+    minTimeCurve: 0
+  - driveType: {fileID: 11400000, guid: e0278b9c80876eb49ac0eb3d33a28a80, type: 2}
+    startingLevel: 0
+    overrideDriveType: 0
+    changePerGameHour: 0
+    rateTimeCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    maxTimeCurve: 0
+    minTimeCurve: 0
+  - driveType: {fileID: 11400000, guid: 25262a7abe3743a4ab183fe24701d39e, type: 2}
+    startingLevel: 0
+    overrideDriveType: 0
+    changePerGameHour: 0
+    rateTimeCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    maxTimeCurve: 0
+    minTimeCurve: 0
+  - driveType: {fileID: 11400000, guid: 2988555736f4ad14a8cd721585f9ff9c, type: 2}
+    startingLevel: 100
+    overrideDriveType: 1
+    changePerGameHour: 5
+    rateTimeCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    maxTimeCurve: 0
+    minTimeCurve: 0
+  - driveType: {fileID: 11400000, guid: 06c38f0ec8635224893389007138080b, type: 2}
+    startingLevel: 0
+    overrideDriveType: 0
+    changePerGameHour: 0
+    rateTimeCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    maxTimeCurve: 0
+    minTimeCurve: 0
+  - driveType: {fileID: 11400000, guid: e5e5610a9e3675740acd60edde20a031, type: 2}
+    startingLevel: 0
+    overrideDriveType: 0
+    changePerGameHour: 0
+    rateTimeCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    maxTimeCurve: 0
+    minTimeCurve: 0
+  - driveType: {fileID: 11400000, guid: 861a0d804acab434a920a80127db801f, type: 2}
+    startingLevel: 0
+    overrideDriveType: 0
+    changePerGameHour: 5
+    rateTimeCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    maxTimeCurve: 0
+    minTimeCurve: 0
+  - driveType: {fileID: 11400000, guid: 093c790b4f3cc2847a1355096a83e59f, type: 2}
+    startingLevel: 0
+    overrideDriveType: 0
+    changePerGameHour: 0
+    rateTimeCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 3.7613492
+        outSlope: 3.7613492
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.071428575
+        value: 0.26866782
+        inSlope: 2.8492293
+        outSlope: 2.8492293
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.14285715
+        value: 0.4070328
+        inSlope: 1.4060808
+        outSlope: 1.4060808
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.21428572
+        value: 0.4695365
+        inSlope: 0.6001667
+        outSlope: 0.6001667
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.2857143
+        value: 0.49277088
+        inSlope: 0.20658055
+        outSlope: 0.20658055
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.35714287
+        value: 0.49904802
+        inSlope: 0.05039564
+        outSlope: 0.05039564
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.42857143
+        value: 0.49997026
+        inSlope: 0.0066638296
+        outSlope: 0.0066638296
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5
+        value: 0.5
+        inSlope: 0.000416398
+        outSlope: 0.000416398
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5714286
+        value: 0.50002974
+        inSlope: 0.006664041
+        outSlope: 0.006664041
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.64285713
+        value: 0.500952
+        inSlope: 0.050395835
+        outSlope: 0.050395835
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.71428573
+        value: 0.50722915
+        inSlope: 0.20658064
+        outSlope: 0.20658064
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.78571427
+        value: 0.5304635
+        inSlope: 0.6001664
+        outSlope: 0.6001664
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.85714287
+        value: 0.5929672
+        inSlope: 1.4060806
+        outSlope: 1.4060806
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.9285714
+        value: 0.7313321
+        inSlope: 2.8492293
+        outSlope: 2.8492293
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 3.761349
+        outSlope: 3.761349
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    maxTimeCurve: 0
+    minTimeCurve: 0
+  animatorOverrides:
+  - controller: {fileID: 22100000, guid: 4d1f4a8a076d5bf489538459dc4d7d97, type: 2}
+    conditionIndexes: 00000000
+  animatorOverridesConditions:
+  - inputConditionType: {fileID: 11400000, guid: 0e8cd24dcb452d14393683317b76d810, type: 2}
+    matchType: 0
+    typeGroupMatch: {fileID: 0}
+    typeCategoryMatch: {fileID: 0}
+    entityTypeMatch: {fileID: 0}
+    inventoryMatchType: 1
+    inventoryTypeGroupMatch: {fileID: 0}
+    inventoryTypeCategoryMatch: {fileID: 11400000, guid: aaf0b65d34773264c8f7cd0dbbff9b97, type: 2}
+    inventoryEntityTypeMatch: {fileID: 0}
+    sharesInventoryTypeGroupWith: 0
+    levelType: {fileID: 0}
+    levelTypes: []
+    entityType: {fileID: 0}
+    entityTypes: []
+    floatValue: 1
+    intValue: 0
+    boolValue: 0
+    stringValue: 
+    enumValueIndex: 0
+    min: -1
+    max: -1
+    actionSkillCurve: {fileID: 0}

@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994b1e074748d404aaa85951f80514a5, type: 3}
+  m_Name: Die
+  m_EditorClassIdentifier: 
+  triggerType: 2
+  forTarget: 0
+  levelType: {fileID: 11400000, guid: 861a0d804acab434a920a80127db801f, type: 2}
+  entityType: {fileID: 0}
+  coolDown: 0
+  inputConditions:
+  - inputConditionType: {fileID: 11400000, guid: 791e9cbbfa2edfe4eb6695b637aa4c2a, type: 2}
+    matchType: 0
+    typeGroupMatch: {fileID: 0}
+    typeCategoryMatch: {fileID: 0}
+    entityTypeMatch: {fileID: 0}
+    inventoryMatchType: 0
+    inventoryTypeGroupMatch: {fileID: 0}
+    inventoryTypeCategoryMatch: {fileID: 0}
+    inventoryEntityTypeMatch: {fileID: 0}
+    sharesInventoryTypeGroupWith: 0
+    levelType: {fileID: 11400000, guid: 861a0d804acab434a920a80127db801f, type: 2}
+    entityType: {fileID: 0}
+    floatValue: 0
+    intValue: 0
+    boolValue: 0
+    stringValue: 
+    enumValueIndex: 0
+    min: 100
+    max: 100
+    actionSkillCurve: {fileID: 0}
+  outputChanges:
+  - timing: 0
+    gameMinutes: 0
+    onAnimationEventOccurence: 0
+    changeEstimateForPlanner: 0
+    targetType: 0
+    inventoryTypeGroupMatchIndex: 0
+    outputChangeType: {fileID: 11400000, guid: a9effa5fbc7b9d44b98f47c6db3562d9, type: 2}
+    entityType: {fileID: 0}
+    levelType: {fileID: 0}
+    valueType: 0
+    boolValue: 0
+    floatValue: 0
+    stringValue: 
+    enumValueIndex: 0
+    actionSkillCurve: {fileID: 0}
+    unityObject: {fileID: 0}
+    selector:
+      valueType: 0
+      attributeType: {fileID: 0}
+      minMax: {fileID: 0}
+      choices: {fileID: 0}
+      selectionType: 0
+      fixedValue: 0
+      selectorType: {fileID: 0}
+    outputChangeConditions: []
+    stopType: 0
+    blockMakeChangeForcedStop: 0
+    recheckInputConditionsIndexes: 
+    stopOnRecheckFail: 0

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac311c2c8195f641899f4fd24cd8481, type: 3}
+  m_Name: Tree
+  m_EditorClassIdentifier: 
+  sideEffectValue: 1
+  typeCategories:
+  - {fileID: 11400000, guid: baf7a9a10270a054bbb443e38deed13d, type: 2}
+  interactionSpotType: {fileID: 11400000, guid: 8127cc6cbeeb77644b28ed054feefdde, type: 2}
+  spotTypeActionTypeMappings: []
+  prefabVariants:
+  - {fileID: 5745798192666126557, guid: 38d28338b67a83a4b86362f40e0747c3, type: 3}
+  ghostPrefabs: []
+  requiresFlatLand: 0
+  rotateToTerrain: 0
+  maxSlopePlacement: 0
+  maxDistanceAsInput: 1
+  defaultAttributes: []
+  defaultTags: []
+  defaultInventoryType: {fileID: 11400000, guid: 5b7f8529e42b0b44e95b2fc0f64aca67, type: 2}
+  canBeInInventorySlots: []
+  transformMappings: []
+  itemAttributeTypeModifiers: []
+  itemActionSkillModifiers: []
+  itemSoundEffects: []
+  itemVisualEffects: []
+  inventorySlots:
+  - {fileID: 11400000, guid: 8b3e0457f40eeed45b5623d534df3af3, type: 2}
+  defaultInventory:
+  - inventorySlot: {fileID: 11400000, guid: 8b3e0457f40eeed45b5623d534df3af3, type: 2}
+    entityType: {fileID: 11400000, guid: ab401d83b010c0540bfda698d44e4cb5, type: 2}
+    prefabVariantIndex: 0
+    probability: 100
+    amountCurve: {fileID: 11400000, guid: 44cfe2e46e81e4b4e929a33ef709be8c, type: 2}
+  defaultEntityModifiers: []
+  itemsConsumedPerBuild: []
+  completeType: 0
+  pointsToComplete: 0
+  growthRate: 0
+  autoScale: 0
+  canBeDamaged: 0
+  damageToDestroy: 0
+  removeOnFullDamage: 0
+  states: []
+  statesOutputChanges: []
+  skinGameObjectName: Body
+  skinPrefabMappings: []
+  addDefaultInventoryTiming: 0
+  recipes: []

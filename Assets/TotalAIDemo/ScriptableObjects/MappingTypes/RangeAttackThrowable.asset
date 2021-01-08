@@ -1,0 +1,206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3949ae63ff7d43d499946781c1cbcf34, type: 3}
+  m_Name: RangeAttackThrowable
+  m_EditorClassIdentifier: 
+  actionType: {fileID: 11400000, guid: 954c0d7c920bb1c48abdf244ab9a910a, type: 2}
+  goToActionType: {fileID: 11400000, guid: 106e17b28514c3b468b1a64b996385ee, type: 2}
+  filterOptions: 0
+  blacklistAgentTypes: []
+  whitelistAgentTypes: []
+  overrideDefaultSelectors: 
+  selectors: []
+  overrideDefaultGoToSelectors: 00
+  goToSelectors:
+  - valueType: 0
+    attributeType: {fileID: 0}
+    minMax: {fileID: 0}
+    choices: {fileID: 0}
+    selectionType: 0
+    fixedValue: 0
+    selectorType: {fileID: 0}
+  maxDistanceAsInput: 15
+  entityTargetSearchRadius: 0
+  reevaluateTargets: 0
+  utilityModifierInfos: []
+  targetFactorInfos:
+  - targetFactor: {fileID: 11400000, guid: d131ca160b34eed43b23fcfd33e4b865, type: 2}
+    weight: 1
+  inventoryFactorInfos:
+  - targetFactor: {fileID: 11400000, guid: e4eb3811e5df14a4fad2d0c5b3c310d7, type: 2}
+    weight: 1
+  inputConditions:
+  - inputConditionType: {fileID: 11400000, guid: 0e8cd24dcb452d14393683317b76d810, type: 2}
+    matchType: 0
+    typeGroupMatch: {fileID: 0}
+    typeCategoryMatch: {fileID: 0}
+    entityTypeMatch: {fileID: 0}
+    inventoryMatchType: 1
+    inventoryTypeGroupMatch: {fileID: 0}
+    inventoryTypeCategoryMatch: {fileID: 11400000, guid: 598d51a33ac7e5e4999798cf92fb3afe, type: 2}
+    inventoryEntityTypeMatch: {fileID: 0}
+    sharesInventoryTypeGroupWith: 0
+    levelType: {fileID: 0}
+    levelTypes: []
+    entityType: {fileID: 0}
+    entityTypes: []
+    floatValue: 1
+    intValue: 0
+    boolValue: 0
+    stringValue: 
+    enumValueIndex: 0
+    min: -1
+    max: -1
+    actionSkillCurve: {fileID: 0}
+  - inputConditionType: {fileID: 11400000, guid: 6e046bc773bf48f45bcf360c50900c3f, type: 2}
+    matchType: 1
+    typeGroupMatch: {fileID: 0}
+    typeCategoryMatch: {fileID: 11400000, guid: cc6357c762aa0e646a992a626e5d5af0, type: 2}
+    entityTypeMatch: {fileID: 0}
+    inventoryMatchType: 0
+    inventoryTypeGroupMatch: {fileID: 0}
+    inventoryTypeCategoryMatch: {fileID: 0}
+    inventoryEntityTypeMatch: {fileID: 0}
+    sharesInventoryTypeGroupWith: 0
+    levelType: {fileID: 0}
+    levelTypes: []
+    entityType: {fileID: 0}
+    entityTypes: []
+    floatValue: 0
+    intValue: 0
+    boolValue: 0
+    stringValue: 
+    enumValueIndex: 0
+    min: -1
+    max: -1
+    actionSkillCurve: {fileID: 0}
+  outputChanges:
+  - timing: 4
+    gameMinutes: 0
+    onAnimationEventOccurence: 0
+    changeEstimateForPlanner: 0
+    targetType: 0
+    inventoryTypeGroupMatchIndex: 0
+    outputChangeType: {fileID: 11400000, guid: 42f1dfc9ae5aa684da15e06d1b37cb49, type: 2}
+    entityType: {fileID: 0}
+    levelType: {fileID: 0}
+    valueType: 0
+    boolValue: 0
+    floatValue: 0
+    intValue: 0
+    stringValue: Hit
+    enumValueIndex: 0
+    actionSkillCurve: {fileID: 0}
+    unityObject: {fileID: 0}
+    selector:
+      valueType: 0
+      attributeType: {fileID: 0}
+      minMax: {fileID: 0}
+      choices: {fileID: 0}
+      selectionType: 0
+      fixedValue: 0
+      selectorType: {fileID: 0}
+    changeConditions: []
+    stopType: 0
+    blockMakeChangeForcedStop: 0
+    recheckInputConditionsIndexes: 
+    stopOnRecheckFail: 0
+  - timing: 4
+    gameMinutes: 0
+    onAnimationEventOccurence: 0
+    changeEstimateForPlanner: 0
+    targetType: 0
+    inventoryTypeGroupMatchIndex: 0
+    outputChangeType: {fileID: 11400000, guid: 36f141072da0dd340b54a8b676187bee, type: 2}
+    entityType: {fileID: 0}
+    levelType: {fileID: 0}
+    valueType: 4
+    boolValue: 0
+    floatValue: 2
+    intValue: 0
+    stringValue: 
+    enumValueIndex: 0
+    actionSkillCurve: {fileID: 0}
+    unityObject: {fileID: 0}
+    selector:
+      valueType: 0
+      attributeType: {fileID: 0}
+      minMax: {fileID: 0}
+      choices: {fileID: 0}
+      selectionType: 0
+      fixedValue: 0
+      selectorType: {fileID: 0}
+    changeConditions: []
+    stopType: 0
+    blockMakeChangeForcedStop: 0
+    recheckInputConditionsIndexes: 
+    stopOnRecheckFail: 0
+  - timing: 1
+    gameMinutes: 1
+    onAnimationEventOccurence: 0
+    changeEstimateForPlanner: 0
+    targetType: 1
+    inventoryTypeGroupMatchIndex: 0
+    outputChangeType: {fileID: 11400000, guid: 1087756fa598b754a8b5bcdb1dda045d, type: 2}
+    entityType: {fileID: 0}
+    levelType: {fileID: 0}
+    valueType: 4
+    boolValue: 0
+    floatValue: 0
+    intValue: 0
+    stringValue: 
+    enumValueIndex: 0
+    actionSkillCurve: {fileID: 0}
+    unityObject: {fileID: 11400000, guid: 8f7ea68e99d6cd14a8a6ec06c9a69dbb, type: 2}
+    selector:
+      valueType: 0
+      attributeType: {fileID: 0}
+      minMax: {fileID: 0}
+      choices: {fileID: 0}
+      selectionType: 0
+      fixedValue: 0
+      selectorType: {fileID: 0}
+    changeConditions: []
+    stopType: 0
+    blockMakeChangeForcedStop: 0
+    recheckInputConditionsIndexes: 
+    stopOnRecheckFail: 0
+  - timing: 0
+    gameMinutes: 0
+    onAnimationEventOccurence: 0
+    changeEstimateForPlanner: 0
+    targetType: 0
+    inventoryTypeGroupMatchIndex: 0
+    outputChangeType: {fileID: 11400000, guid: 5f3732d7e437dd246a074817328b9ab4, type: 2}
+    entityType: {fileID: 0}
+    levelType: {fileID: 11400000, guid: e0278b9c80876eb49ac0eb3d33a28a80, type: 2}
+    valueType: 4
+    boolValue: 0
+    floatValue: -50
+    intValue: 0
+    stringValue: 
+    enumValueIndex: 0
+    actionSkillCurve: {fileID: 0}
+    unityObject: {fileID: 0}
+    selector:
+      valueType: 0
+      attributeType: {fileID: 0}
+      minMax: {fileID: 0}
+      choices: {fileID: 0}
+      selectionType: 0
+      fixedValue: 0
+      selectorType: {fileID: 0}
+    changeConditions: []
+    stopType: 0
+    blockMakeChangeForcedStop: 0
+    recheckInputConditionsIndexes: 
+    stopOnRecheckFail: 0

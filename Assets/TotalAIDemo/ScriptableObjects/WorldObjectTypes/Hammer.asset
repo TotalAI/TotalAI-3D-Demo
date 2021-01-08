@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac311c2c8195f641899f4fd24cd8481, type: 3}
+  m_Name: Hammer
+  m_EditorClassIdentifier: 
+  sideEffectValue: 1
+  typeCategories:
+  - {fileID: 11400000, guid: 6e2465d79acb6d1439dab6ff9a8e27f1, type: 2}
+  interactionSpotType: {fileID: 11400000, guid: 8127cc6cbeeb77644b28ed054feefdde, type: 2}
+  spotTypeActionTypeMappings: []
+  prefabVariants:
+  - {fileID: 2237342428501369869, guid: aa98249626f8fa242b3124d10ecf5795, type: 3}
+  ghostPrefabs: []
+  requiresFlatLand: 0
+  rotateToTerrain: 0
+  maxSlopePlacement: 0
+  maxDistanceAsInput: 0.5
+  defaultAttributes: []
+  defaultTags: []
+  defaultInventoryType: {fileID: 11400000, guid: 5b7f8529e42b0b44e95b2fc0f64aca67, type: 2}
+  canBeInInventorySlots:
+  - inventorySlot: {fileID: 11400000, guid: 5df0c9a80c3d33f438bf6e9b8333e3de, type: 2}
+    numLocations: 1
+    isEquipped: 1
+    otherInventorySlots: []
+    otherInventorySlotsNumLocations: 
+  transformMappings:
+  - transform: {fileID: 5260271942609508877, guid: a90ef9e61c8fef040b7b3bd9c98285fa, type: 3}
+    inventorySlot: {fileID: 11400000, guid: 5df0c9a80c3d33f438bf6e9b8333e3de, type: 2}
+    ownerMatchType: 1
+    typeGroupMatch: {fileID: 0}
+    typeCategoryMatch: {fileID: 11400000, guid: cc6357c762aa0e646a992a626e5d5af0, type: 2}
+    entityTypeMatch: {fileID: 0}
+    ownerPrefabVariantIndex: -1
+    thisPrefabVariantIndex: -1
+    stateNames: []
+  itemAttributeTypeModifiers: []
+  itemActionSkillModifiers: []
+  itemSoundEffects: []
+  itemVisualEffects: []
+  inventorySlots: []
+  defaultInventory: []
+  defaultEntityModifiers: []
+  itemsConsumedPerBuild: []
+  completeType: 0
+  pointsToComplete: 0
+  growthRate: 0
+  autoScale: 0
+  canBeDamaged: 0
+  damageToDestroy: 0
+  removeOnFullDamage: 0
+  states: []
+  statesOutputChanges: []
+  skinGameObjectName: Body
+  skinPrefabMappings: []
+  addDefaultInventoryTiming: 0
+  recipes: []

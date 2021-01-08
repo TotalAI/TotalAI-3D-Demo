@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3949ae63ff7d43d499946781c1cbcf34, type: 3}
+  m_Name: PatrolFSM
+  m_EditorClassIdentifier: 
+  actionType: {fileID: 11400000, guid: d80806682082d33489140276a26bbe20, type: 2}
+  goToActionType: {fileID: 0}
+  filterOptions: 0
+  blacklistAgentTypes: []
+  whitelistAgentTypes: []
+  overrideDefaultSelectors: 00
+  selectors:
+  - valueType: 0
+    attributeType: {fileID: 0}
+    minMax: {fileID: 0}
+    choices: {fileID: 0}
+    selectionType: 0
+    fixedValue: 0
+    selectorType: {fileID: 0}
+  overrideDefaultGoToSelectors: 
+  goToSelectors: []
+  maxDistanceAsInput: 0
+  entityTargetSearchRadius: 0
+  reevaluateTargets: 0
+  targetFactorInfos:
+  - targetFactor: {fileID: 11400000, guid: d131ca160b34eed43b23fcfd33e4b865, type: 2}
+    weight: 1
+  inventoryFactorInfos: []
+  inputConditions:
+  - inputConditionType: {fileID: 11400000, guid: c3abf26428952594db4f9b20c6f04072, type: 2}
+    matchType: 0
+    typeGroupMatch: {fileID: 0}
+    typeCategoryMatch: {fileID: 0}
+    entityTypeMatch: {fileID: 0}
+    inventoryMatchType: 0
+    inventoryTypeGroupMatch: {fileID: 0}
+    inventoryTypeCategoryMatch: {fileID: 0}
+    inventoryEntityTypeMatch: {fileID: 0}
+    sharesInventoryTypeGroupWith: 0
+    levelType: {fileID: 11400000, guid: 59beda6a294c9784bb9206c8492e70ab, type: 2}
+    levelTypes:
+    - {fileID: 11400000, guid: 59beda6a294c9784bb9206c8492e70ab, type: 2}
+    entityType: {fileID: 0}
+    entityTypes: []
+    floatValue: 0
+    intValue: 0
+    boolValue: 0
+    stringValue: 
+    enumValueIndex: 0
+    min: -1
+    max: -1
+    actionSkillCurve: {fileID: 0}
+  - inputConditionType: {fileID: 11400000, guid: 6e046bc773bf48f45bcf360c50900c3f, type: 2}
+    matchType: 2
+    typeGroupMatch: {fileID: 0}
+    typeCategoryMatch: {fileID: 0}
+    entityTypeMatch: {fileID: 11400000, guid: edf3e4ce0068ae74e925a38988f298c1, type: 2}
+    inventoryMatchType: 0
+    inventoryTypeGroupMatch: {fileID: 0}
+    inventoryTypeCategoryMatch: {fileID: 0}
+    inventoryEntityTypeMatch: {fileID: 0}
+    sharesInventoryTypeGroupWith: 0
+    levelType: {fileID: 0}
+    levelTypes: []
+    entityType: {fileID: 0}
+    entityTypes: []
+    floatValue: 0
+    intValue: 0
+    boolValue: 0
+    stringValue: 
+    enumValueIndex: 0
+    min: -1
+    max: -1
+    actionSkillCurve: {fileID: 0}
+  outputChanges:
+  - timing: 0
+    gameMinutes: 0
+    onAnimationEventOccurence: 0
+    changeEstimateForPlanner: 0
+    targetType: 0
+    inventoryTypeGroupMatchIndex: 0
+    outputChangeType: {fileID: 11400000, guid: 5f3732d7e437dd246a074817328b9ab4, type: 2}
+    entityType: {fileID: 0}
+    levelType: {fileID: 11400000, guid: e0278b9c80876eb49ac0eb3d33a28a80, type: 2}
+    valueType: 4
+    boolValue: 0
+    floatValue: -5
+    stringValue: 
+    enumValueIndex: 0
+    actionSkillCurve: {fileID: 0}
+    unityObject: {fileID: 0}
+    selector:
+      valueType: 0
+      attributeType: {fileID: 0}
+      minMax: {fileID: 0}
+      choices: {fileID: 0}
+      selectionType: 0
+      fixedValue: 0
+      selectorType: {fileID: 0}
+    outputChangeConditions: []
+    stopType: 0
+    blockMakeChangeForcedStop: 0
+    recheckInputConditionsIndexes: 
+    stopOnRecheckFail: 0

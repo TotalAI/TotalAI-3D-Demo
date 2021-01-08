@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5edc5663593de7499bcec024a02f5d0, type: 3}
+  m_Name: Chop
+  m_EditorClassIdentifier: 
+  sideEffectValue: 1
+  typeCategories: []
+  maxDistanceAsInput: 0
+  entityTargetSearchRadius: -1
+  interruptType: 0
+  replanFrequency: 0
+  minGreaterUtilityToInterrupt: 0
+  interruptingDriveTypes: []
+  noWaitOnInterrupt: 0
+  noWaitOnFinishNoNextMapping: 0
+  noWaitOnFinishHasNextMapping: 0
+  usesInventorySlots: []
+  behaviorType: {fileID: 11400000, guid: dd8bb65b5cb54d146a432ecec6447105, type: 2}
+  mappingTypes:
+  - {fileID: 11400000, guid: 844c747a453362b46ad321b23f346448, type: 2}

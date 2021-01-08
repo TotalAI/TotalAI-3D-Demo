@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d059a50be412f78429690e463b7baadc, type: 3}
+  m_Name: ExploreBT
+  m_EditorClassIdentifier: 
+  requiredAttributeTypes: []
+  defaultSelectors:
+  - valueType: 0
+    attributeType: {fileID: 11400000, guid: e95ff28a681acfe478c160f3fb2aa28e, type: 2}
+    minMax: {fileID: 0}
+    choices: {fileID: 0}
+    selectionType: 0
+    fixedValue: 0
+    selectorType: {fileID: 0}
+  - valueType: 0
+    attributeType: {fileID: 11400000, guid: 2c52062088218bb4481144a04227f146, type: 2}
+    minMax: {fileID: 0}
+    choices: {fileID: 0}
+    selectionType: 0
+    fixedValue: 0
+    selectorType: {fileID: 0}
+  afterStartWaitTime: 0.3
+  afterUpdateWaitTime: 0.3
+  beforeFinishWaitTime: 0

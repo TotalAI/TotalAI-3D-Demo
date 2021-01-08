@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994b1e074748d404aaa85951f80514a5, type: 3}
+  m_Name: ExplodeOnHit
+  m_EditorClassIdentifier: 
+  triggerType: 6
+  forTarget: 1
+  levelType: {fileID: 0}
+  targetMatchType: 1
+  typeGroup: {fileID: 0}
+  typeCategory: {fileID: 11400000, guid: cc6357c762aa0e646a992a626e5d5af0, type: 2}
+  entityType: {fileID: 11400000, guid: a931034eb0eb2f14b901efdc2446d1bf, type: 2}
+  coolDown: 100
+  inputConditions: []
+  outputChanges:
+  - timing: 0
+    gameMinutes: 0
+    onAnimationEventOccurence: 0
+    changeEstimateForPlanner: 0
+    targetType: 0
+    inventoryTypeGroupMatchIndex: 0
+    outputChangeType: {fileID: 11400000, guid: 578cfda69afb8804bb598b2d4064446f, type: 2}
+    entityType: {fileID: 0}
+    levelType: {fileID: 0}
+    valueType: 9
+    boolValue: 1
+    floatValue: 0
+    intValue: 0
+    stringValue: 
+    enumValueIndex: 0
+    actionSkillCurve: {fileID: 0}
+    unityObject: {fileID: 8300000, guid: ee71d75916edbc84991cb95c3a7f9cba, type: 3}
+    selector:
+      valueType: 0
+      attributeType: {fileID: 0}
+      minMax: {fileID: 0}
+      choices: {fileID: 0}
+      selectionType: 0
+      fixedValue: 0
+      selectorType: {fileID: 0}
+    changeConditions: []
+    stopType: 0
+    blockMakeChangeForcedStop: 0
+    recheckInputConditionsIndexes: 
+    stopOnRecheckFail: 0
+  - timing: 0
+    gameMinutes: 0
+    onAnimationEventOccurence: 0
+    changeEstimateForPlanner: 0
+    targetType: 0
+    inventoryTypeGroupMatchIndex: 0
+    outputChangeType: {fileID: 11400000, guid: 5f3732d7e437dd246a074817328b9ab4, type: 2}
+    entityType: {fileID: 0}
+    levelType: {fileID: 11400000, guid: 861a0d804acab434a920a80127db801f, type: 2}
+    valueType: 4
+    boolValue: 0
+    floatValue: 5
+    intValue: 0
+    stringValue: 
+    enumValueIndex: 0
+    actionSkillCurve: {fileID: 0}
+    unityObject: {fileID: 0}
+    selector:
+      valueType: 0
+      attributeType: {fileID: 0}
+      minMax: {fileID: 0}
+      choices: {fileID: 0}
+      selectionType: 0
+      fixedValue: 0
+      selectorType: {fileID: 0}
+    changeConditions: []
+    stopType: 0
+    blockMakeChangeForcedStop: 0
+    recheckInputConditionsIndexes: 
+    stopOnRecheckFail: 0
+  - timing: 0
+    gameMinutes: 0
+    onAnimationEventOccurence: 0
+    changeEstimateForPlanner: 0
+    targetType: 1
+    inventoryTypeGroupMatchIndex: 0
+    outputChangeType: {fileID: 11400000, guid: af3f63242146e634d873b829729db8bd, type: 2}
+    entityType: {fileID: 0}
+    levelType: {fileID: 0}
+    valueType: 0
+    boolValue: 0
+    floatValue: 0
+    intValue: 0
+    stringValue: 
+    enumValueIndex: 0
+    actionSkillCurve: {fileID: 0}
+    unityObject: {fileID: 0}
+    selector:
+      valueType: 0
+      attributeType: {fileID: 0}
+      minMax: {fileID: 0}
+      choices: {fileID: 0}
+      selectionType: 0
+      fixedValue: 0
+      selectorType: {fileID: 0}
+    changeConditions: []
+    stopType: 0
+    blockMakeChangeForcedStop: 0
+    recheckInputConditionsIndexes: 
+    stopOnRecheckFail: 0

@@ -1,0 +1,206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3949ae63ff7d43d499946781c1cbcf34, type: 3}
+  m_Name: MeleeAttackAgent
+  m_EditorClassIdentifier: 
+  actionType: {fileID: 11400000, guid: 20f27589faeeaf4439df6dd8da850334, type: 2}
+  goToActionType: {fileID: 11400000, guid: 106e17b28514c3b468b1a64b996385ee, type: 2}
+  filterOptions: 0
+  blacklistAgentTypes: []
+  whitelistAgentTypes: []
+  overrideDefaultSelectors: 
+  selectors: []
+  overrideDefaultGoToSelectors: 00
+  goToSelectors:
+  - valueType: 0
+    attributeType: {fileID: 0}
+    minMax: {fileID: 0}
+    choices: {fileID: 0}
+    selectionType: 0
+    fixedValue: 0
+    selectorType: {fileID: 0}
+  maxDistanceAsInput: 0
+  entityTargetSearchRadius: 0
+  reevaluateTargets: 0
+  utilityModifierInfos: []
+  targetFactorInfos:
+  - targetFactor: {fileID: 11400000, guid: d131ca160b34eed43b23fcfd33e4b865, type: 2}
+    weight: 1
+  inventoryFactorInfos:
+  - targetFactor: {fileID: 11400000, guid: a503d19f71418ba46826176320a26f39, type: 2}
+    weight: 1
+  inputConditions:
+  - inputConditionType: {fileID: 11400000, guid: 6e046bc773bf48f45bcf360c50900c3f, type: 2}
+    matchType: 1
+    typeGroupMatch: {fileID: 0}
+    typeCategoryMatch: {fileID: 11400000, guid: cc6357c762aa0e646a992a626e5d5af0, type: 2}
+    entityTypeMatch: {fileID: 0}
+    inventoryMatchType: 0
+    inventoryTypeGroupMatch: {fileID: 0}
+    inventoryTypeCategoryMatch: {fileID: 0}
+    inventoryEntityTypeMatch: {fileID: 0}
+    sharesInventoryTypeGroupWith: 0
+    levelType: {fileID: 0}
+    levelTypes: []
+    entityType: {fileID: 0}
+    entityTypes: []
+    floatValue: 0
+    intValue: 0
+    boolValue: 0
+    stringValue: 
+    enumValueIndex: 0
+    min: -1
+    max: -1
+    actionSkillCurve: {fileID: 0}
+  - inputConditionType: {fileID: 11400000, guid: 4ceb433a11982094282f7f13f141510c, type: 2}
+    matchType: 0
+    typeGroupMatch: {fileID: 0}
+    typeCategoryMatch: {fileID: 0}
+    entityTypeMatch: {fileID: 0}
+    inventoryMatchType: 1
+    inventoryTypeGroupMatch: {fileID: 0}
+    inventoryTypeCategoryMatch: {fileID: 11400000, guid: f2ebf91822deead478d08f62cd69dc01, type: 2}
+    inventoryEntityTypeMatch: {fileID: 0}
+    sharesInventoryTypeGroupWith: 0
+    levelType: {fileID: 0}
+    levelTypes: []
+    entityType: {fileID: 0}
+    entityTypes: []
+    floatValue: 0
+    intValue: 0
+    boolValue: 1
+    stringValue: 
+    enumValueIndex: 0
+    min: -1
+    max: -1
+    actionSkillCurve: {fileID: 0}
+  outputChanges:
+  - timing: 4
+    gameMinutes: 0
+    onAnimationEventOccurence: 0
+    changeEstimateForPlanner: 0
+    targetType: 0
+    inventoryTypeGroupMatchIndex: 0
+    outputChangeType: {fileID: 11400000, guid: 42f1dfc9ae5aa684da15e06d1b37cb49, type: 2}
+    entityType: {fileID: 0}
+    levelType: {fileID: 0}
+    valueType: 0
+    boolValue: 0
+    floatValue: 0
+    intValue: 0
+    stringValue: 
+    enumValueIndex: 0
+    actionSkillCurve: {fileID: 0}
+    unityObject: {fileID: 0}
+    selector:
+      valueType: 2
+      attributeType: {fileID: 0}
+      minMax: {fileID: 0}
+      choices: {fileID: 11400000, guid: e178c9f5ae15d4b499d4681d1e20d5f7, type: 2}
+      selectionType: 1
+      fixedValue: 0
+      selectorType: {fileID: 11400000, guid: 16d1cea8acf9ae94289fc1394206ba90, type: 2}
+    changeConditions: []
+    stopType: 0
+    blockMakeChangeForcedStop: 0
+    recheckInputConditionsIndexes: 
+    stopOnRecheckFail: 0
+  - timing: 4
+    gameMinutes: 0
+    onAnimationEventOccurence: 0
+    changeEstimateForPlanner: 0
+    targetType: 0
+    inventoryTypeGroupMatchIndex: 0
+    outputChangeType: {fileID: 11400000, guid: 36f141072da0dd340b54a8b676187bee, type: 2}
+    entityType: {fileID: 0}
+    levelType: {fileID: 0}
+    valueType: 4
+    boolValue: 0
+    floatValue: 2
+    intValue: 0
+    stringValue: 
+    enumValueIndex: 0
+    actionSkillCurve: {fileID: 0}
+    unityObject: {fileID: 0}
+    selector:
+      valueType: 0
+      attributeType: {fileID: 0}
+      minMax: {fileID: 0}
+      choices: {fileID: 0}
+      selectionType: 0
+      fixedValue: 0
+      selectorType: {fileID: 0}
+    changeConditions: []
+    stopType: 0
+    blockMakeChangeForcedStop: 0
+    recheckInputConditionsIndexes: 
+    stopOnRecheckFail: 0
+  - timing: 1
+    gameMinutes: 0
+    onAnimationEventOccurence: 0
+    changeEstimateForPlanner: 0
+    targetType: 1
+    inventoryTypeGroupMatchIndex: 0
+    outputChangeType: {fileID: 11400000, guid: 767189159ade94f4382999422cb46f7a, type: 2}
+    entityType: {fileID: 0}
+    levelType: {fileID: 11400000, guid: b3bdce86f39e3a442ba4caf04e0e7df2, type: 2}
+    valueType: 10
+    boolValue: 1
+    floatValue: -1
+    intValue: 0
+    stringValue: 
+    enumValueIndex: 0
+    actionSkillCurve: {fileID: 0}
+    unityObject: {fileID: 0}
+    selector:
+      valueType: 0
+      attributeType: {fileID: 11400000, guid: 2c52062088218bb4481144a04227f146, type: 2}
+      minMax: {fileID: 0}
+      choices: {fileID: 0}
+      selectionType: 2
+      fixedValue: 0
+      selectorType: {fileID: 11400000, guid: 16d1cea8acf9ae94289fc1394206ba90, type: 2}
+    changeConditions: []
+    stopType: 0
+    blockMakeChangeForcedStop: 0
+    recheckInputConditionsIndexes: 
+    stopOnRecheckFail: 0
+  - timing: 0
+    gameMinutes: 0
+    onAnimationEventOccurence: 0
+    changeEstimateForPlanner: 0
+    targetType: 0
+    inventoryTypeGroupMatchIndex: 0
+    outputChangeType: {fileID: 11400000, guid: 5f3732d7e437dd246a074817328b9ab4, type: 2}
+    entityType: {fileID: 0}
+    levelType: {fileID: 11400000, guid: e0278b9c80876eb49ac0eb3d33a28a80, type: 2}
+    valueType: 4
+    boolValue: 0
+    floatValue: -5
+    intValue: 0
+    stringValue: 
+    enumValueIndex: 0
+    actionSkillCurve: {fileID: 0}
+    unityObject: {fileID: 0}
+    selector:
+      valueType: 0
+      attributeType: {fileID: 0}
+      minMax: {fileID: 0}
+      choices: {fileID: 0}
+      selectionType: 0
+      fixedValue: 0
+      selectorType: {fileID: 0}
+    changeConditions: []
+    stopType: 0
+    blockMakeChangeForcedStop: 0
+    recheckInputConditionsIndexes: 
+    stopOnRecheckFail: 0

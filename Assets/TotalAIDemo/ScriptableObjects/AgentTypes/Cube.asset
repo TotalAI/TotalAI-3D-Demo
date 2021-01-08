@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e53b3a1b8b5e474a84c157ca8f32922, type: 3}
+  m_Name: Cube
+  m_EditorClassIdentifier: 
+  sideEffectValue: 1
+  typeCategories:
+  - {fileID: 11400000, guid: cc6357c762aa0e646a992a626e5d5af0, type: 2}
+  interactionSpotType: {fileID: 11400000, guid: 8127cc6cbeeb77644b28ed054feefdde, type: 2}
+  spotTypeActionTypeMappings: []
+  prefabVariants:
+  - {fileID: 8108509797497438070, guid: d4f57e6bb364a69468fb1d7ebadf4829, type: 3}
+  ghostPrefabs: []
+  requiresFlatLand: 0
+  rotateToTerrain: 0
+  maxSlopePlacement: 0
+  maxDistanceAsInput: 2
+  defaultAttributes:
+  - type: {fileID: 11400000, guid: def8249370dc1e54ba6369f213fec0bf, type: 2}
+    oneFloatData:
+      floatValue: 0
+    minMaxFloatData:
+      floatValue: 20
+      min: 5
+      max: 30
+    enumData:
+      enumIndexValue: 0
+  - type: {fileID: 11400000, guid: e95ff28a681acfe478c160f3fb2aa28e, type: 2}
+    oneFloatData:
+      floatValue: 0
+    minMaxFloatData:
+      floatValue: 2
+      min: 0
+      max: 5
+    enumData:
+      enumIndexValue: 0
+  - type: {fileID: 11400000, guid: b3bdce86f39e3a442ba4caf04e0e7df2, type: 2}
+    oneFloatData:
+      floatValue: 0
+    minMaxFloatData:
+      floatValue: 20
+      min: 0
+      max: 20
+    enumData:
+      enumIndexValue: 0
+  defaultTags: []
+  defaultInventoryType: {fileID: 11400000, guid: 5b7f8529e42b0b44e95b2fc0f64aca67, type: 2}
+  canBeInInventorySlots: []
+  transformMappings: []
+  itemAttributeTypeModifiers: []
+  itemActionSkillModifiers: []
+  itemSoundEffects: []
+  itemVisualEffects: []
+  inventorySlots:
+  - {fileID: 11400000, guid: 6f031e80d899ccf4db5b53ae060bbf51, type: 2}
+  - {fileID: 11400000, guid: 5df0c9a80c3d33f438bf6e9b8333e3de, type: 2}
+  - {fileID: 11400000, guid: c732361830f2f3b4c922ba57856dea6d, type: 2}
+  defaultInventory: []
+  defaultEntityModifiers: []
+  defaultMovementType: {fileID: 11400000, guid: cac7d0f5b0670594db249a27c82aa721, type: 2}
+  defaultAnimationType: {fileID: 11400000, guid: 951f1e29512d26443b9d661c2d38964b, type: 2}
+  useAnimatorOverrides: 0
+  idleLayer: 0
+  idleState: Idle
+  defaultUtilityFunction: {fileID: 11400000, guid: 42c7360d50fd4a548ba9ce21520c1ecd, type: 2}
+  defaultMemoryType: {fileID: 11400000, guid: 670540be5b8cac1499ed74a9332c414a, type: 2}
+  defaultDeciderType: {fileID: 11400000, guid: 1c97c55512de94548a52b74c9f025946, type: 2}
+  defaultHistoryType: {fileID: 11400000, guid: 42f96b8289481a54a83d66959be3f2a0, type: 2}
+  defaultNoPlansMappingType: {fileID: 0}
+  defaultNoPlansDriveType: {fileID: 0}
+  maxNumDetectedEntities: 100
+  defaultSensorTypes:
+  - {fileID: 11400000, guid: cd396a0233bad5141aa1fc27321012ce, type: 2}
+  defaultActions:
+  - actionType: {fileID: 11400000, guid: 106e17b28514c3b468b1a64b996385ee, type: 2}
+    level: 0
+    changeProbability: 0
+    changeAmount: 0
+  - actionType: {fileID: 11400000, guid: 8a8a85591ecf81242bb1f852b09fac9f, type: 2}
+    level: 0
+    changeProbability: 0
+    changeAmount: 0
+  - actionType: {fileID: 11400000, guid: 4b14827b24f5e704f91fb3bac653b057, type: 2}
+    level: 0
+    changeProbability: 0
+    changeAmount: 0
+  - actionType: {fileID: 11400000, guid: 2a7ec4e88dce55a4e9f9b30d42900036, type: 2}
+    level: 0
+    changeProbability: 0
+    changeAmount: 0
+  - actionType: {fileID: 11400000, guid: 20f27589faeeaf4439df6dd8da850334, type: 2}
+    level: 0
+    changeProbability: 0
+    changeAmount: 0
+  defaultDrives:
+  - driveType: {fileID: 11400000, guid: 52f61f98152edc14181aeebc6c927665, type: 2}
+    startingLevel: 0
+    overrideDriveType: 0
+    changePerGameHour: -2
+    rateTimeCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    maxTimeCurve: 0
+    minTimeCurve: 0
+  - driveType: {fileID: 11400000, guid: e0278b9c80876eb49ac0eb3d33a28a80, type: 2}
+    startingLevel: 0
+    overrideDriveType: 0
+    changePerGameHour: 2
+    rateTimeCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    maxTimeCurve: 0
+    minTimeCurve: 0
+  animatorOverrides: []
+  animatorOverridesConditions: []

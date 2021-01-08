@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac311c2c8195f641899f4fd24cd8481, type: 3}
+  m_Name: Berry
+  m_EditorClassIdentifier: 
+  sideEffectValue: 1
+  typeCategories:
+  - {fileID: 11400000, guid: e36578ff20528f04787ff8ffd40ca048, type: 2}
+  - {fileID: 11400000, guid: dd42641c0d41ff8468c9aa22cb389437, type: 2}
+  interactionSpotType: {fileID: 11400000, guid: 8127cc6cbeeb77644b28ed054feefdde, type: 2}
+  spotTypeActionTypeMappings: []
+  prefabVariants:
+  - {fileID: 1643618328522656708, guid: 700eda56aa056384c8f9eca65a8276a5, type: 3}
+  ghostPrefabs: []
+  requiresFlatLand: 0
+  rotateToTerrain: 0
+  maxSlopePlacement: 0
+  maxDistanceAsInput: 0.5
+  defaultAttributes: []
+  defaultTags: []
+  defaultInventoryType: {fileID: 11400000, guid: 5b7f8529e42b0b44e95b2fc0f64aca67, type: 2}
+  canBeInInventorySlots:
+  - inventorySlot: {fileID: 11400000, guid: 5df0c9a80c3d33f438bf6e9b8333e3de, type: 2}
+    numLocations: 1
+    isEquipped: 0
+    otherInventorySlots: []
+    otherInventorySlotsNumLocations: 
+  - inventorySlot: {fileID: 11400000, guid: 4fc283b024678b740ba7059b31e4625e, type: 2}
+    numLocations: 1
+    isEquipped: 0
+    otherInventorySlots: []
+    otherInventorySlotsNumLocations: 
+  transformMappings: []
+  itemAttributeTypeModifiers: []
+  itemActionSkillModifiers: []
+  itemSoundEffects: []
+  itemVisualEffects: []
+  inventorySlots: []
+  defaultInventory: []
+  defaultEntityModifiers: []
+  itemsConsumedPerBuild: []
+  completeType: 0
+  pointsToComplete: 0
+  growthRate: 0
+  autoScale: 0
+  canBeDamaged: 0
+  damageToDestroy: 0
+  removeOnFullDamage: 0
+  states: []
+  statesOutputChanges: []
+  skinGameObjectName: Body
+  skinPrefabMappings: []
+  addDefaultInventoryTiming: 0
+  recipes: []

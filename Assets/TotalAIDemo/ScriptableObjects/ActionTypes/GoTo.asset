@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5edc5663593de7499bcec024a02f5d0, type: 3}
+  m_Name: GoTo
+  m_EditorClassIdentifier: 
+  sideEffectValue: 1
+  typeCategories: []
+  maxDistanceAsInput: 0
+  entityTargetSearchRadius: -1
+  interruptType: 0
+  replanFrequency: 0
+  minGreaterUtilityToInterrupt: 0
+  interruptingDriveTypes: []
+  noWaitOnInterrupt: 0
+  noWaitOnFinishNoNextMapping: 0
+  noWaitOnFinishHasNextMapping: 0
+  usesInventorySlots: []
+  behaviorType: {fileID: 11400000, guid: 269bee5f6821c3442a0cb75a0947a2d4, type: 2}
+  mappingTypes: []
